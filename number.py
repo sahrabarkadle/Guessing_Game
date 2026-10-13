@@ -18,7 +18,8 @@ while correct_answered_picked == False: # Continues until the user guesses corre
         else: 
             print("You have already guessed", user_guess + "! Choose a different number") # They have already guessed that number
             print("Previous guesses:", previous_guesses) # Shows the guesses stored
-            user_guess = int(input("Enter a number between 1-10: ")) # Asking the user to guess
+
+        user_guess = int(input("Enter a number between 1-10: ")) # Asking the user to guess
     
     previous_guesses.append(user_guess) # Adding a new guess to the list
 
